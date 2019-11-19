@@ -21,10 +21,10 @@ import re
 from tweepy import OAuthHandler
 
 
-consumer_api_key = 'jtEHSA1Tvg8a055rwb051Lgp9'
-consumer_api_secret = '1ypm4My3YIvUrIGtsaXslhyvVcrL7xgZdIfklPs06HGHNOFxdz'
-access_token = '22194953-8KsRIfsMebogISTEjXJ17tzc9aoYZBjKpoYO0c8Hs'
-access_token_secret = 'DM3G3XjYnTZJcNNu2Ehx2xzSBE3XOHspZjw7m22ERIY2q'
+consumer_api_key = 'consumer_api_key'
+consumer_api_secret = 'consumer_api_secret'
+access_token = 'access_token'
+access_token_secret = 'access_token_secret'
 
 
 authorizer = OAuthHandler(consumer_api_key, consumer_api_secret)
